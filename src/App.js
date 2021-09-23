@@ -140,7 +140,7 @@ document.body.style.zoom = "80%"
               // (UNCOMMENT LINE BELOW AND ENTER GOOGLE MAPS API KEY)
 
               googleMapURL={
-                "https://maps.googleapis.com/maps/api/js?key=AIzaSyAVg-AZGcnfVSXuynPP7y59WJS8abv0G6g&v=3.exp&libraries=geometry,drawing,places"
+                "https://maps.googleapis.com/maps/api/js?key=" + process.env.GOOGLEMAPSAPIKEY + "&v=3.exp&libraries=geometry,drawing,places"
               }
               
               // some zoom parameters for the map
